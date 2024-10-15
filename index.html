@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar">
+      <a href="index.html" class="logo">Library Management</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="book.html">Books</a></li> <!-- New Link for Books -->
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <h1>Welcome to Our Library Management System</h1>
+    <p>Effortlessly manage books, members, and loans in one place.</p>
+    <a href="#services" class="cta-button">Get Started</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Our library management system helps you streamline library operations, including book management, member
+      tracking, and loan monitoring.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Book Management</h3>
+      <p>Easily manage the library's book inventory.</p>
+    </div>
+    <div class="service">
+      <h3>Member Management</h3>
+      <p>Track library members and their subscriptions.</p>
+    </div>
+    <div class="service">
+      <h3>Loan Management</h3>
+      <p>Monitor book loans and returns efficiently.</p>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login" class="login-section">
+    <h2>Login to Your Account</h2>
+    <p>Already a member? Log in to manage your books, loans, and account details.</p>
+    <a href="login.html" class="cta-button">Login Here</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Reach out to us for any questions or support.</p>
+    <form action="submit_form.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Library Management System. All rights reserved.</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
